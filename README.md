@@ -23,9 +23,9 @@ curl 'https://ip.164746.xyz/ipTop.html'
 [XIU2](https://github.com/XIU2/CloudflareSpeedTest)、[ddgth](https://github.com/ddgth/cf2dns)
 
 ## 摸索出来的使用方法
-*必要条件：拥有CF账号
-*一、Fork项目到自己的github仓库repositories
-*二、部署这个项目到github pages
- *进入这个，点击上面的setting![image](https://github.com/user-attachments/assets/3288c27b-be62-4122-ae25-ecf4d0a67b09)
- *点击左侧pages![image](https://github.com/user-attachments/assets/9153bba2-6df5-425a-aa0d-83c56ca432ac)
+* 必要条件：拥有CF账号
+* 一、Fork项目到自己的github仓库repositories
+* 二、部署这个项目到github pages
+ * 进入这个，点击上面的setting![image](https://github.com/user-attachments/assets/3288c27b-be62-4122-ae25-ecf4d0a67b09)
+ * 点击左侧pages![image](https://github.com/user-attachments/assets/9153bba2-6df5-425a-aa0d-83c56ca432ac)
 
