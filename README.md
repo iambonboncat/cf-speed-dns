@@ -30,27 +30,28 @@ curl 'https://ip.164746.xyz/ipTop.html'
 * 
 * 二、部署这个项目到github pages
   *  进入这个，点击上面的setting。
-*  ![image](https://github.com/user-attachments/assets/3288c27b-be62-4122-ae25-ecf4d0a67b09)
-*  
+*  ![image](https://github.com/user-attachments/assets/3288c27b-be62-4122-ae25-ecf4d0a67b09)  
   *  点击左侧pages。
-* ![image](https://github.com/user-attachments/assets/9153bba2-6df5-425a-aa0d-83c56ca432ac)
-* 
+* ![image](https://github.com/user-attachments/assets/9153bba2-6df5-425a-aa0d-83c56ca432ac) 
   *  选择一下Build and deployment 的源 Source。
-* ![image](https://github.com/user-attachments/assets/0c3a2fd9-391a-4cb9-8d94-a1a1dbbd04e5)
-* 
+* ![image](https://github.com/user-attachments/assets/0c3a2fd9-391a-4cb9-8d94-a1a1dbbd04e5) 
   *  如果你在CF上有自己的域名，可以在下面这个框框上填上，以绑定xxx.github.io/cf-speed-dns这个域名跳转。
-* ![image](https://github.com/user-attachments/assets/6da71fee-8b53-427c-9fe2-13bc1971a06a)
-* 
+* ![image](https://github.com/user-attachments/assets/6da71fee-8b53-427c-9fe2-13bc1971a06a) 
   *  同时在你的CF的域名下，添加一个cname的二级域名指向xxx.github.io。
-* ![image](https://github.com/user-attachments/assets/325e7f88-c217-4651-a511-e79e4820b710)
-* 
+* ![image](https://github.com/user-attachments/assets/325e7f88-c217-4651-a511-e79e4820b710) 
   *  如果绑定成功，在github这个页面，会出现DNS check successful字样。
-* ![image](https://github.com/user-attachments/assets/3354ef1c-0152-48be-86db-fd9b897a5c66)
-* 
+* ![image](https://github.com/user-attachments/assets/3354ef1c-0152-48be-86db-fd9b897a5c66) 
   *  这时候，你就能用刚才添加的域名直接访问网页。
-  *  
-* 三、设置Actions的配置
+* 三、登入CF获取API token和Zone ID，并新建一个自动更新最优ip地址的二级域名。
 * 
+* 四、设置Actions的配置
+* 在setting页面，点击secrets and variables下面的actions
+  * ![image](https://github.com/user-attachments/assets/02a27c4b-293c-4595-a04d-b9288a607bb3)
+* 点击下方的新建
+* ![image](https://github.com/user-attachments/assets/0233ae39-003f-43ec-bf23-ed8ccaf2ddc6)
+* 填入Name和Secret
+
+
 
 
 
