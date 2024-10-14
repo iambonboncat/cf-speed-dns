@@ -69,7 +69,14 @@ curl 'https://ip.164746.xyz/ipTop.html'
   * ![image](https://github.com/user-attachments/assets/45c8b71b-0da3-4a0b-97de-719ad5f63bb2)
   * 分别新建三个secrets，CF_API_TOKEN对应填入API令牌，CF_ZONE_ID填入区域ID，CF_DNS_NAME填入你需要自动更新的二级域名（例如dns.XXXXX.xyz）
   * ![image](https://github.com/user-attachments/assets/fac365f2-48e7-4d40-b245-3f52ab9b4945)
-* 五、到此处，已经把需要设置填写的地方都部署设置好了，接下来就是见证奇迹的时刻。
+* 五、到此处，已经把需要设置填写的地方都部署设置好了，接下来就是启动Actions。
+* 点击Actions，进入界面，把几个需要启动workflow的文件打开。
+* ![image](https://github.com/user-attachments/assets/311c37a1-83e6-476e-8b62-c3517ceb23c3)
+* 接下来就等这自动部署和更新。如果你要手动更新，也可以点击run workflow。
+* ![image](https://github.com/user-attachments/assets/c13bae55-4bd5-47f0-b77c-5b768936dd95)
+* 如果一切顺利，你就会发现，之前乱填的DNS二级域名ip更新成了最快的那一个ip！
+
+
 
 
 
