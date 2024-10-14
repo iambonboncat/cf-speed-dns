@@ -43,7 +43,22 @@ curl 'https://ip.164746.xyz/ipTop.html'
 * ![image](https://github.com/user-attachments/assets/3354ef1c-0152-48be-86db-fd9b897a5c66) 
   *  这时候，你就能用刚才添加的域名直接访问网页。
 * 三、登入CF获取API token和Zone ID，并新建一个自动更新最优ip地址的二级域名。
-* 
+  * 点击需要自动更新ip的域名，把区域ID复制下来备用，这个就是CF_ZONE_ID，
+  * ![image](https://github.com/user-attachments/assets/5ecffa5a-fbd2-4e42-88f1-48b52f17d52a)
+  * 点击 获取你的API令牌，
+  * ![image](https://github.com/user-attachments/assets/ac18440e-e2db-4615-8f44-eef007656872)
+  * 点击 创建令牌，
+  * ![image](https://github.com/user-attachments/assets/be1d4f08-1f71-4e55-a34c-af6ccf8e2240)
+  * 选择 编辑区域DNS使用模板，
+  * ![image](https://github.com/user-attachments/assets/b2e505fe-ce0d-4d5e-8b8f-9f4ff522bbcf)
+  * 选择 需要自动更新IP的域名，
+  * ![image](https://github.com/user-attachments/assets/debddf43-bacd-4696-99b5-d789a5908a6c)
+  * 点击 继续以显示摘要，
+  * ![image](https://github.com/user-attachments/assets/4d7e5ac5-c9d8-4990-be49-a63d82eb4ef5)
+  * 点击 创建令牌，
+  * ![image](https://github.com/user-attachments/assets/b73574c2-7dad-4623-8028-c6cc6c771e50)
+  * 复制 创建好的令牌备用，
+  * ![image](https://github.com/user-attachments/assets/7ffb24ec-2192-4293-86a1-c67a7fcaa4ac)
 * 四、设置Actions的配置
 * 在setting页面，点击secrets and variables下面的actions
   * ![image](https://github.com/user-attachments/assets/02a27c4b-293c-4595-a04d-b9288a607bb3)
