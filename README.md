@@ -59,12 +59,18 @@ curl 'https://ip.164746.xyz/ipTop.html'
   * ![image](https://github.com/user-attachments/assets/b73574c2-7dad-4623-8028-c6cc6c771e50)
   * 复制 创建好的令牌备用，
   * ![image](https://github.com/user-attachments/assets/7ffb24ec-2192-4293-86a1-c67a7fcaa4ac)
+  * 顺便在DNS项目里面新建一个二级域名，类型A，名称dns，ip地址随便填一个备用。
 * 四、设置Actions的配置
 * 在setting页面，点击secrets and variables下面的actions
   * ![image](https://github.com/user-attachments/assets/02a27c4b-293c-4595-a04d-b9288a607bb3)
 * 点击下方的新建
 * ![image](https://github.com/user-attachments/assets/0233ae39-003f-43ec-bf23-ed8ccaf2ddc6)
 * 填入Name和Secret
+* ![image](https://github.com/user-attachments/assets/45c8b71b-0da3-4a0b-97de-719ad5f63bb2)
+* 分别新建三个secrets，CF_API_TOKEN对应填入API令牌，CF_ZONE_ID填入区域ID，CF_DNS_NAME填入你需要自动更新的二级域名（例如dns.XXXXX.xyz）
+* ![image](https://github.com/user-attachments/assets/fac365f2-48e7-4d40-b245-3f52ab9b4945)
+
+
 
 
 
