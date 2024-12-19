@@ -22,8 +22,7 @@ curl 'https://ip.164746.xyz/ipTop.html'
 ## 感谢
 [XIU2](https://github.com/XIU2/CloudflareSpeedTest)、[ddgth](https://github.com/ddgth/cf2dns)
 
-## 2024年12月20日，由于Github不支持python不支持3.7版本，导致更新CF域名IP失败，修改dns_cf.yml
-文件，以使用python 3.12版本。
+## 2024年12月20日，由于Github不支持python不支持3.7版本，导致更新CF域名IP失败，修改dns_cf.yml文件，以使用python 3.12版本。
 
 ## 摸索出来的使用方法
 *
