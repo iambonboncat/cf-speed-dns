@@ -90,12 +90,12 @@ def main():
     dns_records = get_dns_records(CF_DNS_NAME)
     push_plus_content = []
     # 遍历 IP 地址列表
-    for index, ip_address in enumerate(ip_addresses):
+    # for index, ip_address in enumerate(ip_addresses): #取消遍历
         # 执行 DNS 变更
         dns = update_dns_record(dns_records[index], CF_DNS_NAME, ip_address)
         push_plus_content.append(dns)
 
-    push_plus('\n'.join(push_plus_content))
+    # push_plus('\n'.join(push_plus_content)) # 取消推送
 
 if __name__ == '__main__':
     main()
